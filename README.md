@@ -8,9 +8,12 @@ As of 10/13/2023, the KB XML filesize is about 569MB.
 --------------------------------------------------
 ### BASE64 Encoding Your Username:Password
 
-Your Qualys username and password should be used in the Authorization header field as: Basic abcDEFghiJKLmnoPQRstuVWXyz012345
+Your Qualys username and password should be used in the Authorization header field as: 
+```
+Basic abcDEFghiJKLmnoPQRstuVWXyz012345
+```
 
-You can use the online converter https://www.base64encode.org and convert the string
+You can use the online converter https://www.base64encode.org to convert the string
 
 
 --------------------------------------------------
@@ -43,4 +46,3 @@ with requests.request("POST", url, stream=True, headers=headers, data=payload) a
             f.write(chunk)
 
 ```
---------------------------------------------------
