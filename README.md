@@ -1,3 +1,8 @@
+>[!NOTE]
+>You need an active Qualys subscription to proceed with the information below
+
+------------------------------------------------
+
 This is a Python script that will pull the entire Qualys Knowledgebase.  It is based on the example provided in [this Qualys blog](https://blog.qualys.com/product-tech/2021/03/02/qualys-api-best-practices-knowledgebase-api), but of course they only put screenshots so you can't copy and paste. 
 
 I've also adjusted it to include the current date in the output filename. 
