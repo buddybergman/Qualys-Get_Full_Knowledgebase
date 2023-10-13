@@ -11,9 +11,8 @@ Your Qualys username and password should be used in the Authorization header fie
 
 You can use the online converter https://www.base64encode.org and convert the string
 
+As of 10/13/2023, the KB XML filesize is about 569MB.
 --------------------------------------------------
-
-### As of 10/13/2023, the KB XML filesize is about 569MB. 
 
 ### Code:  
 ```
