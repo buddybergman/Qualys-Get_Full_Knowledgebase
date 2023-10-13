@@ -3,7 +3,11 @@ This is a Python script that will pull the entire Qualys Knowledgebase.  It is b
 I've also adjusted it to include the current date in the output filename. 
 
 Note that you can add/remove payload details in the code as you see fit. 
+
+As of 10/13/2023, the KB XML filesize is about 569MB.
+
 --------------------------------------------------
+
 ### BASE64 Encoding Your Username:Password
 
 Your Qualys username and password should be used in the Authorization header field as: 
